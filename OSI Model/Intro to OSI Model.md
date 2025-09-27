@@ -1,0 +1,92 @@
+# 🌐 Networking Notes
+
+## 🏗️ Introduction to the OSI Model
+
+The **OSI Model** (Open Systems Interconnection) is a **framework** that explains how data travels 📡 from one device to another across a network.  
+It breaks networking into **7 layers**, each with a specific role.  
+
+---
+
+### 📚 The 7 Layers of the OSI Model
+
+```
+
++-----------------------+  (7) Application  🖥️  → End-user apps (HTTP, SMTP)
++-----------------------+  (6) Presentation 🎨 → Data formatting, encryption
++-----------------------+  (5) Session       🔄 → Manages sessions between apps
++-----------------------+  (4) Transport     🚚 → Reliable delivery (TCP/UDP)
++-----------------------+  (3) Network       🗺️ → IP addressing & routing
++-----------------------+  (2) Data Link     🪪 → MAC addresses, switching
++-----------------------+  (1) Physical      ⚡ → Cables, signals, hardware
+
+```
+
+---
+
+### 🔎 Layer Breakdown (Top to Bottom)
+
+1. **Physical (⚡)**  
+   - Hardware, cables, signals, binary transmission.  
+
+2. **Data Link (🪪)**  
+   - MAC addresses, switches, node-to-node communication.  
+
+3. **Network (🗺️)**  
+   - IP addresses, routers, routing decisions.  
+
+4. **Transport (🚚)**  
+   - TCP/UDP, error checking, reliable delivery.  
+
+5. **Session (🔄)**  
+   - Establishes, manages, and terminates connections.  
+
+6. **Presentation (🎨)**  
+   - Data translation, encryption/decryption, compression.  
+
+7. **Application (🖥️)**  
+   - End-user applications (web browsers, email, etc.).  
+
+---
+
+### 🌍 TCP/IP Model
+The **TCP/IP Model** is a simplified, practical version used in real-world networking (including the internet).  
+
+It has **4 layers**:  
+
+```
+
++------------------+  Application (HTTP, FTP, SMTP, DNS)
++------------------+  Transport (TCP, UDP)
++------------------+  Internet (IP, ICMP)
++------------------+  Network Access (Ethernet, Wi-Fi)
+
+```
+
+---
+
+### 🆚 OSI vs TCP/IP
+
+| Feature          | 🏗️ **OSI Model (7 layers)** | 🌍 **TCP/IP Model (4 layers)** |
+|------------------|-----------------------------|--------------------------------|
+| Layers           | 7 (detailed breakdown)      | 4 (practical grouping)         |
+| Purpose          | Conceptual framework        | Real-world implementation      |
+| Usage            | Teaching & theory           | Internet & networking today    |
+
+---
+
+### 📡 Practical Example – Sending a Ping
+When you send a **ping request (ICMP)**:  
+1. **Application (🖥️)** → User runs the `ping` command.  
+2. **Transport (🚚)** → Chooses protocol (ICMP in this case).  
+3. **Network (🗺️)** → Adds source & destination IP addresses.  
+4. **Data Link (🪪)** → Adds MAC addresses for local delivery.  
+5. **Physical (⚡)** → Converts everything into bits/signals on the wire.  
+
+The process reverses on the receiving side. 🔁  
+
+---
+
+### 📝 Summary
+- **OSI Model** → 7-layer framework for understanding networking.  
+- **TCP/IP Model** → 4-layer practical model powering the internet.  
+- Together, they help us understand how data moves from one device to another.  
