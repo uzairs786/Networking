@@ -100,6 +100,3 @@ Sender --\[Packet B]--> Receiver (arrives fast 🚀 but no guarantee)
 - **UDP** = Fast ⚡, lightweight, connectionless (but less reliable).  
 ```
 
----
-
-👉 Do you want me to **retrofit the previous lessons** (Switches/Routers/Firewalls + IP & MAC) with the same **emoji + diagram style**, so your whole `NETWORKING.md` feels consistent and visually engaging?
