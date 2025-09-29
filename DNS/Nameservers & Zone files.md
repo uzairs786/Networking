@@ -56,7 +56,3 @@ google.com.   IN  NS  ns1.google.com.
 
 ---
 
-👉 Do you also want me to **go back and simplify the previous DNS notes** (like the general DNS intro) in this same style, so the whole section is consistent and easier to skim?
-```
-
-
