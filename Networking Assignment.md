@@ -75,7 +75,8 @@ http://nginx.uzairabdsamad.co.uk
 
 * Page loaded successfully showing the **NGINX default welcome page** 🎉
 
-![screenshot of nginx](
+
+<img width="1126" height="573" alt="Screenshot 2025-10-01 at 21 58 17" src="https://github.com/user-attachments/assets/880ef34e-d7a3-4314-892c-83895f19fb09" />
 
 
 ---
@@ -83,7 +84,7 @@ http://nginx.uzairabdsamad.co.uk
 ## ✅ Outcome
 
 * Domain successfully linked to EC2 instance.
-* NGINX is publicly accessible at `nginx.mydomain.com`.
+* NGINX is publicly accessible at `nginx.uzairabdsamad.co.uk`.
 
 ---
 
